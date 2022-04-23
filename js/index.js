@@ -7,6 +7,8 @@ $('#btn1a').click(function (event) {
 
 
 function myFunction(){
-    window.alert("clicked");
-    
+    // window.alert("clicked");
+    $("btn1").css("background-color", "red");
+    var elem = Document.getElementById('btn1');
+    elem.style.color = "yellow";
 }
