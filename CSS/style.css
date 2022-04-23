@@ -1,0 +1,40 @@
+body {
+    background-color: red;
+}
+.div1 {
+    /* background-color: orange; */
+}
+.btn1 {
+    font-size: 22px;
+    border-radius: 10px;
+color: red;
+background-color: rgba(139, 199, 29, 0.861);
+
+}
+.btn1:hover {
+/* color: purple; */
+background-color: pink;
+}
+
+.btn1:disabled {
+    /* color: purple; */
+    background-color: gray;
+    }
+
+.title {
+ color: blue;
+ background-color: white;
+}
+.img1:hover {
+    height:"300";
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+ .btn1 {
+     font-size: 12px;
+ }
+}
+
